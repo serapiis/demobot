@@ -17,7 +17,7 @@ class Pay(StatesGroup):
     step3 = State()
     step4 = State()
 connect = sqlite3.connect('db.db')
-TOKEN = token = '5478258777:AAGKIi6b4yi0zoGkKCVdnVgQDQZVugahKKA'
+TOKEN = token = '5540552181:AAFPtyKqMd-JvPB3wZhvzENuIuftcfpkL5U'
 
 chat_message = '5511912305'
 bot = Bot(token=TOKEN)
